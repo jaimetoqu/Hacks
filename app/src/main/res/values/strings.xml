@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hacks</string>
+
+    <string name="welcome_hacker">Gracias por utilizar nuestra app! Actualmente estas de forma anónima, si deseas registrarte como hacker para poder buscar a las empresas que quieres hackear simplemente presiona el botón de abajo </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

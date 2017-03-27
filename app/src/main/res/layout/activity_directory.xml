@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_directory"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jaimetoqu.hacks.views.directory.DirectoryActivity">
+
+    <RelativeLayout
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/searchEt"
+            android:singleLine="true"
+            android:hint="Busca la compañia.."
+            android:maxLines="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:inputType="textPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/searchIb" />
+
+        <ImageButton
+            android:scaleType="centerCrop"
+            android:id="@+id/searchIb"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/bg_ib_primary_dark"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:src="@mipmap/ic_search_white_24dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <fragment
+        android:id="@+id/directoryListFragment"
+        android:name="com.jaimetoqu.hacks.views.directory.DirectoryListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_directory_list"/>
+
+    <RelativeLayout
+        android:gravity="center|bottom"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/companyFab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_business_white_24dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/profileFab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_person_white_24dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/historyFab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_history_white_24dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/menuFab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_menu_white_24dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

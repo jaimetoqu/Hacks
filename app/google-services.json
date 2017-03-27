@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "83325623346",
+    "firebase_url": "https://hacks-d2d49.firebaseio.com",
+    "project_id": "hacks-d2d49",
+    "storage_bucket": "hacks-d2d49.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83325623346:android:f990d886ab436488",
+        "android_client_info": {
+          "package_name": "com.jaimetoqu.hacks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83325623346-g730eqfvln7o6bor8j5jvtdir48hbins.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jaimetoqu.hacks",
+            "certificate_hash": "72a4079c0cdac368158f23faeaec31072a7bb40d"
+          }
+        },
+        {
+          "client_id": "83325623346-tnb87o7286rmni109u2sg7kp1b0n256l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtZ3nWMvfLCbQiFVGjCIivKZ6kJPWH-Bs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83325623346-tnb87o7286rmni109u2sg7kp1b0n256l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
